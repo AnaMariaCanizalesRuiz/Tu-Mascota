@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MenuInicial">
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <!-- Settings, should always be in the overflow -->
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item android:id="@+id/iramiperfil"
+        android:title="@string/miPerfil"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/paginawebir"
+        android:title="@string/irpaginawenb"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/cerrarsesion"
+        android:title="@string/cerrarSesion"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/prueba"
+        android:title="@string/IniciarSesion"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+
+
+
+
+</menu>

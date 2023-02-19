@@ -1,0 +1,120 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="especieseleccion">
+        <item>Gato</item>
+        <item>Perro</item>
+    </string-array>
+
+    <string-array name="sexoseleccion">
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+
+    <string-array name="razasGatos">
+        <item>Criollo</item>
+        <item>Mestizo</item>
+        <item>Maine Coon</item>
+        <item>Bengalí</item>
+        <item>Persa</item>
+        <item>Himalayo</item>
+        <item>Scotish fold</item>
+        <item>Británico de pelo corto</item>
+        <item>Sphinx</item>
+        <item>Ragdoll</item>
+        <item>Habana</item>
+        <item>Otro</item>
+
+    </string-array>
+
+
+    <string-array name="coloresAnimales">
+        <item>Negro</item>
+        <item>Chocolate</item>
+        <item>Blanco</item>
+        <item>Negro y blanco</item>
+        <item>Carey</item>
+        <item>Gris</item>
+        <item>Amarillo</item>
+        <item>Tricolor</item>
+        <item>Cuatricolor</item>
+        <item>Otro</item>
+
+    </string-array>
+
+    <string-array name="vacunas">
+        <item>Triple: Panleucopenia, Rinotraqueitis y Calcivirus</item>
+        <item>Moquillo</item>
+        <item>Hepatitis</item>
+        <item>Parvovirosis</item>
+        <item>Coronavirus</item>
+        <item>Parainfluenza</item>
+        <item>Leptospirosis</item>
+        <item>Rabia</item>
+        <item>Leucemia Viral</item>
+        <item>Calicivirus</item>
+        <item>Panleucopenia</item>
+        <item>Rinotraqueitis</item>
+        <item>Kc</item>
+    </string-array>
+
+
+    <string-array name="razasPerros">
+        <item>Criollo</item>
+        <item>Mestizo</item>
+        <item>Otro</item>
+        <item>Beagle</item>
+        <item>Bichón Habanero</item>
+        <item>Border Collie</item>
+        <item>Boyero de Berna</item>
+        <item>Bulldog francés</item>
+        <item>Cairn Terrier</item>
+        <item>Caniche</item>
+        <item>Carlino</item>
+        <item>Cavalier King Charles Spaniel</item>
+        <item>Chihuahua</item>
+        <item>Cocker Spaniel</item>
+        <item>Collie</item>
+        <item>Cotón de Tuléar</item>
+        <item>Crestado rodesiano</item>
+        <item>Dálmata</item>
+        <item>Golden retriever</item>
+        <item>Husky Siberiano</item>
+        <item>Jack russell terrier</item>
+        <item>Labrador Retriever</item>
+        <item>Pastor Alemán</item>
+        <item>Pastor Australiano</item>
+        <item>Pastor de shetland</item>
+        <item>Perro de granja danés y sueco</item>
+        <item>Perro finlandés de laponia</item>
+        <item>Pincher</item>
+        <item>Pomerania</item>
+        <item>Poodle</item>
+        <item>Retriever de Nueva Escocia</item>
+        <item>Retriever de pelo liso</item>
+        <item>Rottweiler</item>
+        <item>Samoyedo</item>
+        <item>Schnauzer miniatura</item>
+        <item>Setter Inglés</item>
+        <item>Shih tzu</item>
+        <item>Staffordshire Bull Terrier</item>
+        <item>Teckel</item>
+        <item>Whippet</item>
+        <item>Yorkshire Terrier</item>
+
+    </string-array>
+
+
+
+
+
+</resources>

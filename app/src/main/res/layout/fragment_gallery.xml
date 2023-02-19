@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="multiply"
+    android:backgroundTint="#23EDC616"
+    android:background="@drawable/fondossss11"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/perfilFoto"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="50dp"
+                    android:foregroundGravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/car07"
+                    app:civ_border_color='#FFFFFF' />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:fontFamily="@font/dosis_medium"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:foregroundGravity="center"
+
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:fontFamily="@font/dosis_medium"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nombre"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/nombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/dosis_medium"
+                            android:hint="@string/vacio"
+                            android:inputType="textPersonName"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/direccion"
+                            android:fontFamily="@font/dosis_medium"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/direccion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="@string/vacio"
+                            android:fontFamily="@font/dosis_medium"
+                            android:inputType="textPersonName" />
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/barrio"
+                            android:fontFamily="@font/dosis_medium"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/barrio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="@string/vacio"
+                            android:fontFamily="@font/dosis_medium"
+                            android:inputType="textPersonName" />
+
+                        <TextView
+                            android:id="@+id/textView9c"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ciudad"
+                            android:fontFamily="@font/dosis_medium"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/ciudad"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/dosis_medium"
+                            android:hint="@string/vacio"
+                            android:inputType="textPersonName"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/celular"
+                            android:fontFamily="@font/dosis_medium"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/celular"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="@string/vacio"
+                            android:fontFamily="@font/dosis_medium"
+                            android:inputType="number" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/correo"
+                            android:fontFamily="@font/dosis_medium"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/correoelectronico"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/dosis_medium"
+                            android:ems="10"
+                            android:hint="@string/vacio"
+                            android:inputType="textEmailAddress" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/dosis_medium"
+                            android:textSize="34sp" />
+
+                        <Button
+                            android:id="@+id/guardarPerfil"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_margin="20dp"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:text="@string/guardad"
+                            android:fontFamily="@font/dosis_medium"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            app:iconTint="#FFFFFF"
+                            app:iconTintMode="multiply" />
+
+                        <TextView
+                            android:id="@+id/ddddddddd"
+                            android:layout_width="match_parent"
+                            android:fontFamily="@font/dosis_medium"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

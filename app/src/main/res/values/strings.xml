@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Tu Mascota</string>
+
+    <string name="tvtutorial1">Bienvenido a Tu Mascota!</string>
+    <string name="bttutorial1">Continuar</string>
+
+    <string name="tvtutorial2">Tienes una, dos, tres o mas peluditos en casa? Esta aplicación te ayudara con el control de las necesidades de tu peludito</string>
+    <string name="bttutorial2">Continuar</string>
+
+    <string name="tvtutorial3">Tendremos un perfil donde puedes llevar el registro de vacunas, peso, baño y entre otras responsabilidades que tienes con tu mascota. Regístrate y aprende cada día de tu mascota</string>
+    <string name="bttutorial3">Empezar</string>
+
+    <string name="IniciarSesion">Iniciar sesión</string>
+
+    <string name="IngresarConGoogle">Ingresar con Gmail</string>
+    <string name="IngresarConCorreo">Ingresar con Correo</string>
+
+    <string name="NoTienesCuenta">No tienes cuenta?</string>
+    <string name="RegistrateAqui"><u>Registrate aquí</u></string>
+    <string name="Registro">Registro de usuario</string>
+    <string name="default_web_client_id2" translatable="false">428371964088-b2dpn9ugars44r01cb3t8pk915oe6h2u.apps.googleusercontent.com</string>
+    <string name="title_activity_prueba">prueba</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="cerrarSesion">Cerrar sesión</string>
+
+    <string name="miPerfil">Mi Perfil</string>
+
+    <string name="nombre">Nombre</string>
+    <string name="direccion">Dirección</string>
+    <string name="barrio">Barrio</string>
+    <string name="telefonoFijo">Telefono Fijo</string>
+    <string name="celular">Celular</string>
+    <string name="correo">Correo Electrónico</string>
+
+    <string name="guardad">Guardar</string>
+    <string name="vacio"></string>
+    <string name="registrate">Registrate</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="registroconGmail">Registro con Gmail</string>
+    <string name="registroconCorreo">Registro con Correo</string>
+    <string name="vermisMascotas">Ver mis mascotas</string>
+    <string name="menu">Menu</string>
+    <string name="agregarMascota">Agregar mascota</string>
+    <string name="urlPagina">https://tumascota2022.com/</string>
+    <string name="irpaginawenb">Pagina web</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="title_activity_navegar">Navegar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Tu Perfil</string>
+    <string name="menu_slideshow">Pagina Web Tu Mascota</string>
+    <string name="title_activity_menu_principal_drawer">MenuPrincipalDrawer</string>
+    <string name="tuPerfil">Tu Perfil</string>
+    <string name="visitapaginaWeb">Visita nuestra pagina web</string>
+    <string name="raza">Raza</string>
+    <string name="fechanacimiento">Fecha de nacimiento</string>
+    <string name="color">Color</string>
+    <string name="sexo">Sexo</string>
+    <string name="historiac"># Historia Clínica</string>
+    <string name="tusMascotas">Tus Mascotas</string>
+    <string name="inicio">Inicio</string>
+    <string name="foto">Foto</string>
+    <string name="verMasco">Ver Mascotas</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="eliminarMascota">Eliminar Mascota</string>
+    <string name="confi">Configuración mascotas</string>
+    <string name="app">App</string>
+    <string name="vermascota">Ver mascotas</string>
+    <string name="conDueño">Tu Perfil</string>
+    <string name="verperfil">Ver perfil</string>
+    <string name="general">Informativa</string>
+    <string name="paginaInicial">Pagina Inicial</string>
+    <string name="notieneinternet">Lo sentimos, no estas conectado a internet. vuelve a intentarlo más tarde</string>
+    <string name="calendario">Calendario</string>
+    <string name="recuperar">Olvido su clave? <u>Recuperar Aquí</u></string>
+    <string name="agregaiz">Agrega mascotas en el menú izquierdo</string>
+    <string name="actualizarmasco">Actualizar Mascota</string>
+    <string name="tituloactualizar">Seleccione mascota que desea actualizar datos:</string>
+    <string name="soporte">Soporte</string>
+    <string name="desparacitacion">Desparasitación</string>
+    <string name="desparacitar">Desparasitar</string>
+    <string name="historiaclinica">Historia Clinica</string>
+    <string name="agregarDes">Agregar Fecha de Desparasitación</string>
+    <string name="seleccionar">Seleccionar Mascota:</string>
+    <string name="agregar">Agregar</string>
+    <string name="adjuntar">Adjuntar Imagen de Prueba</string>
+    <string name="seleccionFecha">Seleccionar Fecha de Desparasitación:</string>
+    <string name="registr">Registro</string>
+    <string name="producto">Nombre del Producto</string>
+    <string name="agregardatosdes">Agregar datos desparasitación</string>
+    <string name="verdes">Ver Desparasitación</string>
+    <string name="selecEli">Seleccionar mascota que desea eliminar:</string>
+    <string name="listaDes">Lista Registro Desparasitasión</string>
+    <string name="vacunacion">Vacunación</string>
+    <string name="vervac">Ver Vacunación</string>
+    <string name="selecfechavac">Seleccionar fecha de Vacunación</string>
+    <string name="agregardatvac">Agregar Datos de Vacunación</string>
+    <string name="vacuna">Vacuna</string>
+    <string name="selvac">Seleccionar Vacuna:</string>
+    <string name="listaVac">Lista Registro Vacunación</string>
+
+    <string name="v1">Moquillo</string>
+    <string name="v2">Hepatitis</string>
+    <string name="v3">Parvovirosis</string>
+    <string name="v4">Coronavirus</string>
+    <string name="v5">Parainfluenza</string>
+    <string name="v6">Leptospirosis</string>
+    <string name="v7">Rabia</string>
+    <string name="v8">Leucemia Viral</string>
+    <string name="v9">Calicivirus</string>
+    <string name="v10">Panleucopenia</string>
+    <string name="v11">Rinotraqueitis</string>
+    <string name="v12">Kc</string>
+    <string name="antesdecerrarsesion">Antes de cerrar sesión</string>
+    <string name="listamas">Lista de tus mascotas:</string>
+    <string name="contunuar">Continuar agregar mascota</string>
+
+    <string name="redespara">Registrar Desparasitación</string>
+    <string name="revac">Registrar Vacunación</string>
+    <string name="lisdes">Lista de Desparasitación</string>
+    <string name="lisvac">Lista de Vacunación</string>
+
+
+</resources>

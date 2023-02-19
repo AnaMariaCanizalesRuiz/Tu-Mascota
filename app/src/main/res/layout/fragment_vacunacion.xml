@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:backgroundTintMode="multiply"
+    android:backgroundTint="#23EDC616"
+    android:background="@drawable/fondovacuna"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/dosis_medium"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="685dp"
+        android:text="TextView"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    <LinearLayout
+        android:id="@+id/linearl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dosis_medium"
+        android:layout_margin="10dp"
+        android:text="@string/selecfechavac"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+        <LinearLayout
+            android:id="@+id/lineaFormato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/infoCalendario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:text="@string/agregarDes"
+                android:textSize="18dp"
+                android:fontFamily="@font/dosis_medium"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/infoDe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/dosis_medium"
+                android:padding="10dp"
+                android:text="@string/agregardatvac"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dosis_medium"
+                android:padding="10dp"
+                android:text="@string/seleccionar"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/text_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/dosis_medium"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/mascotasSpiner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/textViesw17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/selvac"
+                android:fontFamily="@font/dosis_medium"
+                android:textSize="18dp" />
+
+
+            <Spinner
+                android:id="@+id/vacunaSpiner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/vacunas"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/textViedsw17"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/dosis_medium"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/vacio"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/adjuntar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dosis_medium"
+                android:padding="10dp"
+                android:text="@string/adjuntar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:icon="@drawable/ic_menu_gallery" />
+
+            <ImageView
+                android:id="@+id/imgPruebax"
+                android:layout_width="330dp"
+                android:layout_height="330dp"
+                android:layout_gravity="center"
+                android:src="@drawable/fondodraw11"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/guardadDesparasitacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dosis_medium"
+                android:text="@string/guardad"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

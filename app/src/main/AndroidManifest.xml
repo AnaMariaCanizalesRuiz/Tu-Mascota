@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mascota">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mascota">
+        <activity
+            android:name=".publicidadgrande"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6732687221943354~9659940359" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Mascota.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".opcionuno"
+            android:exported="false"
+            android:parentActivityName=".MenuPrincipalDrawer"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuPrincipalDrawer" />
+        </activity>
+        <activity
+            android:name=".MenuPrincipalDrawer"
+            android:exported="false"
+            android:label="@string/title_activity_menu_principal_drawer"
+            android:theme="@style/Theme.Mascota.NoActionBar" />
+        <activity
+            android:name=".PaginaWeb"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inicioSesionConCorreo"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Mascota.NoActionBar" />
+        <activity
+            android:name=".RegistroConCorreo"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Mascota.NoActionBar" />
+        <activity
+            android:name=".Perfil"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Registro"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Mascota.NoActionBar" />
+        <activity
+            android:name=".MenuInicial"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inicioSesion"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Mascota.NoActionBar" />
+    </application>
+
+</manifest>

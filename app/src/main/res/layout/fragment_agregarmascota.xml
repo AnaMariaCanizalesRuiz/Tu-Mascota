@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="multiply"
+    android:backgroundTint="#23EDC616"
+    android:background="@drawable/fondnos50"
+    tools:context = ".ui.agregarmascota.AgregarmascotaFragment"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/lineaadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/botonAtras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:text="@string/contunuar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:id="@+id/fragmento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/perfilFoto"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="50dp"
+                        android:foregroundGravity="center"
+
+                        android:src="@drawable/fotoaqu" />
+
+                    <Spinner
+                        android:id="@+id/spinnerEspecie"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:entries="@array/especieseleccion"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:foregroundGravity="center"
+
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/textView9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/dosis_medium"
+                                android:text="@string/nombre"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/nombremascota"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:fontFamily="@font/dosis_medium"
+                                android:hint="@string/vacio"
+                                android:inputType="textPersonName"
+                                tools:ignore="SpeakableTextPresentCheck" />
+
+                            <TextView
+                                android:id="@+id/textView12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/dosis_medium"
+                                android:text="@string/raza"
+                                android:textSize="18sp" />
+
+
+                            <Spinner
+                                android:id="@+id/razaGato"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:entries="@array/razasGatos"
+                                android:padding="10dp"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:visibility="gone" />
+
+                            <Spinner
+                                android:id="@+id/razaPerro"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:entries="@array/razasPerros"
+                                android:padding="10dp"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/dosis_medium"
+                                android:text="@string/fechanacimiento"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/fechanaci"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:ems="10"
+                                android:focusable="false"
+                                android:fontFamily="@font/dosis_medium"
+                                android:hint="@string/vacio"
+                                android:inputType="none" />
+
+                            <TextView
+                                android:id="@+id/textView9c"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/dosis_medium"
+                                android:text="@string/color"
+                                android:textSize="18sp" />
+
+                            <Spinner
+                                android:id="@+id/colorAnimal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:entries="@array/coloresAnimales"
+                                android:padding="10dp"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/dosis_medium"
+                                android:text="@string/sexo"
+                                android:textSize="18sp" />
+
+                            <Spinner
+                                android:id="@+id/spinnerSexo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:entries="@array/sexoseleccion"
+                                android:padding="10dp"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/dosis_medium"
+                                android:text="@string/historiac"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/numerohistoriaclinica"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:fontFamily="@font/dosis_medium"
+                                android:hint="@string/vacio"
+                                android:inputType="text" />
+
+                            <TextView
+                                android:id="@+id/textView16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/dosis_medium"
+                                android:textSize="34sp" />
+
+                            <Button
+                                android:id="@+id/guardarmascota"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_margin="20dp"
+                                android:fontFamily="@font/dosis_medium"
+                                android:foregroundGravity="center"
+                                android:gravity="center"
+                                android:text="@string/guardad"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/ddddddddd"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/dosis_medium"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                    </ScrollView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

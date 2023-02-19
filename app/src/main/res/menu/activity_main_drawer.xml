@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:id="@+id/grupo0">
+        <item android:title="@string/general">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="?attr/actionModeCopyDrawable"
+                    android:title="@string/inicio"
+                    tools:targetApi="m" />
+
+            </menu>
+        </item>
+    </group>
+
+
+
+
+
+
+    <group android:id="@+id/grupo1">
+        <item android:title="@string/confi">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_vermascotas"
+                android:icon="@drawable/iconobuscarmascota"
+                android:title="@string/vermascota"
+                />
+
+
+        <item
+            android:id="@+id/nav_agregarmascota"
+            android:icon="@drawable/iconoplus"
+            android:title="@string/agregarMascota" />
+
+            <item
+                android:id="@+id/nav_actualizarmascota"
+                android:icon="@drawable/iconocorazon"
+                android:title="@string/actualizarmasco" />
+
+
+            <item
+                android:id="@+id/nav_eliminarmascota"
+                android:icon="@android:drawable/ic_delete"
+                android:title="@string/eliminarMascota" />
+
+
+
+
+        </menu>
+        </item>
+
+    </group>
+
+    <group android:id="@+id/grupo5">
+        <item android:title="@string/historiaclinica">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_verdesparasitacion"
+                    android:icon="@drawable/dedesparasitar"
+                    android:title="@string/lisdes"
+                    ></item>
+
+                <item
+                    android:id="@+id/nav_desparacitacion"
+                    android:icon="@drawable/masdes"
+                    android:title="@string/redespara"></item>
+
+
+
+                <item
+                    android:id="@+id/nav_vervacunacion"
+                    android:icon="@drawable/vacuna"
+                    android:title="@string/lisvac"
+                    ></item>
+
+                <item
+                    android:id="@+id/nav_vacunacion"
+                    android:icon="@drawable/masvac"
+                    android:title="@string/revac"></item>
+
+            </menu>
+        </item>
+
+    </group>
+
+
+    <group android:id="@+id/grupo3">
+        <item android:title="@string/registr">
+
+            <menu>
+
+
+
+
+
+
+            </menu>
+        </item>
+
+    </group>
+
+
+
+
+
+    <group android:id="@+id/grup4">
+        <item android:title="@string/tuPerfil">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/iconoperfil"
+                    android:title="@string/verperfil" />
+
+
+            </menu>
+
+        </item>
+
+    </group>
+
+
+
+    <group android:id="@+id/grupo2">
+        <item android:title="@string/app">
+            <menu>
+
+                <item
+        android:id="@+id/nav_slideshow"
+        android:icon="@drawable/iconourl"
+        android:title="@string/visitapaginaWeb" />
+
+
+        <item
+            android:id="@+id/nav_cerrarsesion"
+            android:icon="?attr/actionModeCloseDrawable"
+            android:title="@string/cerrarSesion" />
+
+            </menu>
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mascota.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.mascota.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.mascota.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_agregarmascota"
+        android:name="com.example.mascota.ui.agregarmascota.AgregarmascotaFragment"
+        android:label="@string/agregarMascota"
+        tools:layout="@layout/fragment_agregarmascota" />
+
+    <fragment
+        android:id="@+id/nav_eliminarmascota"
+        android:name="com.example.mascota.ui.eliminarmascota.EliminarmascotaFragment"
+        android:label="@string/eliminarMascota"
+        tools:layout="@layout/fragment_eliminarmascota" />
+
+
+    <fragment
+        android:id="@+id/nav_cerrarsesion"
+        android:name="com.example.mascota.ui.cerrarsesion.CerrarsesionFragment"
+        android:label="@string/cerrarSesion"
+        tools:layout="@layout/fragment_cerrarsesion" />
+
+    <fragment
+        android:id="@+id/nav_vermascotas"
+        android:name="com.example.mascota.ui.vermascotas.VermascotasFragment"
+        android:label="@string/vermascota"
+        tools:layout="@layout/fragment_vermascotas" />
+
+
+    <fragment
+        android:id="@+id/nav_actualizarmascota"
+        android:name="com.example.mascota.ui.actualizasmascota.ActualizarmascotaFragment"
+        android:label="@string/actualizarmasco"
+        tools:layout="@layout/fragment_actualizarmascota" />
+
+    <fragment
+        android:id="@+id/nav_desparacitacion"
+        android:name="com.example.mascota.ui.desparasitacion.DesparacitacionFragment"
+        android:label="@string/desparacitar"
+        tools:layout="@layout/fragment_desparacitacion" />
+
+    <fragment
+        android:id="@+id/nav_verdesparasitacion"
+        android:name="com.example.mascota.ui.verdesparasitacion.VerdesparasitacionFragment"
+        android:label="@string/verdes"
+        tools:layout="@layout/fragment_verdesparasitacion" />
+
+    <fragment
+        android:id="@+id/nav_vacunacion"
+        android:name="com.example.mascota.ui.vacunacion.VacunacionFragment"
+        android:label="@string/vacunacion"
+        tools:layout="@layout/fragment_vacunacion" />
+
+    <fragment
+        android:id="@+id/nav_vervacunacion"
+        android:name="com.example.mascota.ui.vervacunacion.VervacunacionFragment"
+        android:label="@string/vervac"
+        tools:layout="@layout/fragment_vervacunacion" />
+
+
+</navigation>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3675" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/drawable/bordehembra.xml" value="0.24" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/drawable/bordekawaii.xml" value="0.241" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/drawable/bordemacho.xml" value="0.24" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/drawable/border.xml" value="0.3665" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3675" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/drawable/side_nav_bar.xml" value="0.161" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/drawable/spinner_style.xml" value="0.3675" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/font/font.xml" value="0.3958333333333333" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_inicio_sesion.xml" value="0.33" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_inicio_sesion_con_correo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_main2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_menu_inicial.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_menu_principal_drawer.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_navegar.xml" value="0.3351449275362319" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_opcionuno.xml" value="0.27898550724637683" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_pagina_web.xml" value="0.353713768115942" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_perfil.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_publicidadgrande.xml" value="0.25815217391304346" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_registro.xml" value="0.22" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/activity_registro_con_correo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/app_bar_menu_principal_drawer.xml" value="0.327445652173913" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/app_bar_navegar.xml" value="0.3351449275362319" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/content_menu_dos_drawer.xml" value="0.327445652173913" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/content_menu_principal_drawer.xml" value="0.365625" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/content_navegar.xml" value="0.3351449275362319" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/content_prueba.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_actualizarmascota.xml" value="0.27898550724637683" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_agregarmascota.xml" value="0.348731884057971" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_cerrarsesion.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_desparacitacion.xml" value="0.27898550724637683" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_eliminarmascota.xml" value="0.27898550724637683" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_gallery.xml" value="0.3110914714980115" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_home.xml" value="0.24727838258164853" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_second.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_slideshow.xml" value="0.3351449275362319" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_vacunacion.xml" value="0.27898550724637683" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_verdesparasitacion.xml" value="0.27898550724637683" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_vermascotas.xml" value="0.27898550724637683" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/fragment_vervacunacion.xml" value="0.27898550724637683" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/nav_header_menu_principal_drawer.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/nav_header_navegar.xml" value="0.3351449275362319" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/pruebas.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/sample_cerrarsesion.xml" value="0.327445652173913" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/settings_activity.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/tutorial1.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/tutorial2.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/layout/tutorial3.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/menu-v23/activity_main_drawer.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/menu/menu_principal_drawer.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/menu/menupaginicial.xml" value="0.34791666666666665" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/menu/navegar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Mascota/app/src/main/res/xml/root_preferences.xml" value="0.3351449275362319" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

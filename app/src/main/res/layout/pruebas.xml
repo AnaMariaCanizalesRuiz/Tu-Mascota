@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".inicioSesion">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="50dp"
+                android:visibility="gone"
+                android:fontFamily="@font/acme_regular"
+                android:text="@string/IniciarSesion"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/buttonx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="70dp"
+                android:onClick="signIn"
+                android:text="@string/IngresarConGoogle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="18sp"
+                app:icon="@drawable/gmail"
+                android:fontFamily="@font/dosis_medium"
+                app:iconSize="25dp"
+                app:iconTintMode="multiply" />
+
+            <Button
+                android:id="@+id/buttony"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/dosis_medium"
+                android:onClick="irLoginConCorreo"
+                android:text="@string/IngresarConCorreo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="18sp"
+                app:icon="@android:drawable/ic_dialog_email"
+                app:iconSize="25dp"
+                app:iconTintMode="multiply" />
+
+            <TextView
+                android:id="@+id/textVigew2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/dosis_medium"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="@string/NoTienesCuenta" />
+
+            <Button
+                android:id="@+id/buttogn3"
+                android:fontFamily="@font/dosis_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00FFFFFF"
+                android:onClick="irRegistro"
+                android:text="@string/RegistrateAqui"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/colorControlNormal"
+                android:textSize="16sp"
+                app:iconSize="25dp"
+                app:iconTintMode="multiply" />
+
+            <TextView
+                android:id="@+id/tegxtViesw2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="@string/vacio"
+                tools:visibility="gone" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+    <ImageView
+        android:id="@+id/imageViedw4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/textVidew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/acme_regular"
+        android:text="@string/IniciarSesion"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttdonx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="@font/dosis_medium"
+        android:onClick="signIn"
+        android:text="@string/IngresarConGoogle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        app:icon="@drawable/gmail"
+        app:iconSize="25dp"
+        app:iconTintMode="multiply"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <Button
+        android:id="@+id/buttdony"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="@font/dosis_medium"
+        android:onClick="irLoginConCorreo"
+        android:text="@string/IngresarConCorreo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        app:icon="@android:drawable/ic_dialog_email"
+        app:iconSize="25dp"
+        app:iconTintMode="multiply"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/dosis_medium"
+        android:gravity="center"
+        android:text="@string/NoTienesCuenta"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/dosis_medium"
+        android:onClick="irRegistro"
+        android:text="@string/RegistrateAqui"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="16sp"
+        app:iconSize="25dp"
+        app:iconTintMode="multiply"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="654dp" />
+
+    <TextView
+        android:id="@+id/textViesw2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/vacio"
+        tools:visibility="gone" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
